@@ -1,0 +1,12 @@
+V3
+Task: Language Identification
+Note: training and testing list file is not fixed, can be changed to anything (e.g., open speaker, open vocabulary, and different type of noise background)
+
+bash run.sh experiment_name train_list test_list > memo/memo_experiment_ID.txt
+or more examples are in the script master_run.sh.
+
+Note: 
+run.sh contains training and testing 
+add_run.sh only contains testing part (save time)
+
+All the useful information will be saved in the directory /results/ 
